@@ -17,7 +17,7 @@ export default function ZoomConference() {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
       <h3 className="text-blue-600 mb-6 text-xl font-semibold">
-        Guru - Zoom Conference
+        Guru -  Zoom Conference
       </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
