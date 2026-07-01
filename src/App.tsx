@@ -17,7 +17,6 @@ import FormElements from "./pages/Forms/FormElements";
 import Blank from "./pages/Blank";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
-import Home from "./pages/Dashboard/Home";
 import GuruHome from "./pages/Guru/GuruHome";
 import LearningRepo from "./pages/Guru/LearningRepo";
 import VideoConfrence from "./pages/Guru/VideoConfrence";
@@ -34,7 +33,7 @@ export default function App() {
         <Routes>
           {/* Dashboard Layout */}
           <Route element={<AppLayout />}>
-            <Route index path="/" element={<Home />} />
+            <Route index path="/" element={<GuruHome />} />
 
             {/* Others Page */}
             <Route path="/profile" element={<UserProfiles />} />
