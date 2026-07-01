@@ -18,6 +18,13 @@ import Blank from "./pages/Blank";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
+import GuruHome from "./pages/Guru/GuruHome";
+import LearningRepo from "./pages/Guru/LearningRepo";
+import VideoConfrence from "./pages/Guru/VideoConfrence";
+import MuridHome from "./pages/Murid/MuridHome";
+import TutorList from "./pages/Murid/TutorList";
+import VideoRoom from "./pages/Murid/VideoRoom";
+import MuridRegister from "./pages/Murid/MuridRegister";
 
 export default function App() {
   return (
@@ -33,7 +40,13 @@ export default function App() {
             <Route path="/profile" element={<UserProfiles />} />
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/blank" element={<Blank />} />
-
+            <Route path="/Guru/GuruHome" element={<GuruHome />} />
+            <Route path="/Guru/LearningRepo" element={<LearningRepo />} />
+            <Route path="/Guru/VideoConfrence" element={<VideoConfrence />} />
+            <Route path="/Murid/MuridHome" element={<MuridHome />} />
+            <Route path="/Murid/TutorList" element={<TutorList />} />
+            <Route path="/Murid/VideoRoom" element={<VideoRoom />} />
+            <Route path="/Murid/MuridRegister" element={<MuridRegister />} />
             {/* Forms */}
             <Route path="/form-elements" element={<FormElements />} />
 

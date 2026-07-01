@@ -55,6 +55,17 @@ import { ReactComponent as MoreDotIcon } from "./moredot.svg?react";
 import { ReactComponent as AlertHexaIcon } from "./alert-hexa.svg?react";
 import { ReactComponent as ErrorHexaIcon } from "./info-hexa.svg?react";
 
+import {
+  VideoCameraIcon,
+  UserGroupIcon,
+  BookOpenIcon,
+  ClipboardDocumentIcon,
+  ComputerDesktopIcon,
+  ChartBarIcon,
+  BellIcon,
+} from "@heroicons/react/24/outline";
+
+
 export {
   ErrorHexaIcon,
   AlertHexaIcon,
@@ -112,4 +123,11 @@ export {
   ChatIcon,
   AngleLeftIcon,
   AngleRightIcon,
+  VideoCameraIcon as VideoCallIcon,
+  BookOpenIcon as LearningRepoIcon,
+  UserGroupIcon as TutorListIcon,
+  ClipboardDocumentIcon as RegisterIcon,
+  ComputerDesktopIcon as VideoRoomIcon,
+  ChartBarIcon as AnalyticsIcon,
+  BellIcon as NotificationIcon,
 };
